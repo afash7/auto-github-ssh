@@ -79,10 +79,10 @@ chmod +x setup_github_ssh.sh
 Planned features and enhancements for future versions:
 
 - [ ] Support GitLab and Bitbucket (SSH setup flow for each)
-- [✅] Add option to create a unique SSH key for each project
-- [✅] Automatically set SSH as the remote URL for existing Git repos
+- ✅ Add option to create a unique SSH key for each project
+- ✅ Automatically set SSH as the remote URL for existing Git repos
 - [ ] Add `fzf` interface to pick SSH keys or Git remotes
-- [✅] Detect Linux distro and install `xclip` dynamically (`apt`, `dnf`, `pacman`)
+- ✅ Detect Linux distro and install `xclip` dynamically (`apt`, `dnf`, `pacman`)
 - [ ] Add optional GUI mode using `zenity` or `kdialog`
 - [ ] Export key fingerprint or metadata in terminal after creation
 - [ ] Add option to remove/reset existing SSH keys
